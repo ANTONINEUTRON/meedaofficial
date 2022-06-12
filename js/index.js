@@ -16,7 +16,7 @@ let navLinks = document.querySelectorAll('.nav-link');
 //event listener for each links
 navLinks.forEach(link => {  
   link.addEventListener('click', () => {
-    links.classList.remove('show-links');
+    links.classList.remove('show-links')
   }); 
 });
 
